@@ -46,12 +46,12 @@ public class ArchiveClientTest {
     @Before
     public void setUp() throws IOException {
         client = new ArchiveServiceClient();
-        testUpload();
+     //   testUpload();
     }
 
     @After
     public void tearDown() {
-        deleteDirectory(new File(FileSystemDocumentDao.DIRECTORY));
+      //  deleteDirectory(new File(FileSystemDocumentDao.DIRECTORY));
     }
 
    
